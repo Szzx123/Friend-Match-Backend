@@ -32,6 +32,10 @@ This is a mobile site based on Vue3 + SpringBoot2, which is a learning platform.
 
 Our vision is that through this platform, users can find their partners with the same skills and preferences, and exchange contact information and form teams to learn and communicate together. Users can also find the learning resources they need to study.
 
+Back-end repository: https://github.com/Szzx123/Friend-Match-Backend
+
+Front-end repository: https://github.com/Szzx123/Friend-Match-Frontend
+
 ### Project Technical Points
 
 - When developing the front-end, we used the Vant UI component library and encapsulated the global common Layout component to make the layout of different pages consistent and reduce duplicate code.
