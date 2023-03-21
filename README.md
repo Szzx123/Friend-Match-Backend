@@ -48,6 +48,24 @@ Front-end repository: https://github.com/Szzx123/Friend-Match-Frontend
 - We used the recommendation algorithm  - Levenshtein distance algorithm, to recommend partners as well as learning resources based on the most matching tags.
 - We use Swagger + Knife4j to automatically generate back-end interface documentation to avoid the hassle of manual documentation and facilitate direct debugging by developers.
 
+### Interface Overview
+
+**Main Page - User Matching Page - Personal Information Page**
+
+![1](./IMG/1.png)
+
+**User information modification page - Search user page - User search result page**
+
+![2](./IMG/2.png)
+
+**User search result page - Team Information Page**
+
+![3](./IMG/3.png)
+
+**Create team page - Team management page - Search for team page**
+
+![4](./IMG/4.png)
+
 ## TODO List
 
 - [x] Front-end page layout development

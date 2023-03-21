@@ -34,7 +34,8 @@ public class PreCacheJob {
     private RedisTemplate<String, Object> redisTemplate;
     private List<Long> mainUserList = Arrays.asList(1L);
 
-    @Scheduled(cron = "0 59 23 * * *")
+//    @Scheduled(cron = "0 59 23 * * *")
+    @Scheduled(cron = "0 0/1 * * * ?")
     public void doCacheRecommendUser() {
         RLock lock = redissonClient.getLock("yupao:precachejob:docache:lock");
         try {
