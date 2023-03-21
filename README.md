@@ -47,3 +47,36 @@ Front-end repository: https://github.com/Szzx123/Friend-Match-Frontend
 - To solve the problems of the same user repeatedly joining the queue and the number of people joining the queue exceeding the upper limit, we use Redisson distributed locks to implement operational mutual exclusion and ensure the idempotence of the interface.
 - We used the recommendation algorithm  - Levenshtein distance algorithm, to recommend partners as well as learning resources based on the most matching tags.
 - We use Swagger + Knife4j to automatically generate back-end interface documentation to avoid the hassle of manual documentation and facilitate direct debugging by developers.
+
+## TODO List
+
+- [x] Front-end page layout development
+- [x] Database design
+- [x] Back-end project initialization
+- [x] Develop interface to search for users by tags
+- [x] Front-end routing integration
+- [x] Search user page development
+- [x] User information page development
+- [x] User information modification page development
+- [x] Integrating Interface Documentation with Swagger
+- [x] User search page integration with back-end interface
+- [x] Resolving cross-domain issues
+- [x] Transforming the back end into a distributed login
+- [x] Develop user login function
+- [x] Integration of front-end list components, component abstraction
+- [x] Cache warm-up function implementation
+- [x] Add timed tasks to implement preload cache
+- [x] Adding distributed locks to resolve thread resource conflicts
+- [x] Develop the function for users to make groups
+- [x] Development of join team function
+- [x] Development of modifying team functions
+- [x] Develop the quit team function
+- [x] Improve user permissions for operating teams
+- [x] Develop user matching function
+- [x] Optimize front-end design and introduce skeleton screen
+- [x] Solve the problem that users repeatedly join the queue when concurrent
+- [ ] Designing a database for storing course resources
+- [ ] Develop front-end pages to showcase courses
+- [ ] Transferring the algorithm of recommendation partners to recommend learning resources
+- [ ] Develop the posting function in the group
+- [ ] Develop the function to select labels for users during registration
